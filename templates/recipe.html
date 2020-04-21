@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid" style="background: rgb(59,72,247);
+background: linear-gradient(82deg, rgba(59,72,247,1) 38%, rgba(94,117,218,0.9668242296918768) 61%, rgba(143,149,187,0.9780287114845938) 81%); ">
+  <h1 style="color:white; text-shadow: 2px 2px black; margin-left:42.5%; margin-top:50px;">Recipe </h1>
+  <br>
+    <div class="formwrapper">
+<div class="container">
+    
+</div>
+<br><br><br>
+<div style="width:100%; " >
+    <p class="ingredients-para ">Recipe Description:<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Recipe_Description}}</span></p>
+    <br>
+    <p class="ingredients-para">Preparation time:<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Preparation_time}}</span></p>
+    <br>
+    <p class="ingredients-para">Cooking Time<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Cooking_Time}}</span></p>
+    <br>
+    <p class="ingredients-para">Recipe Name<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Recipe_Name}}</span></p>
+    <br>
+    <p class="ingredients-para">Servings<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Servings}}</span></p>
+    <br>
+    <p class="ingredients-para">Course Name<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Course_Name}}</span></p>
+    <br>
+    <p class="ingredients-para">Cuisine Name<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Cuisine_Name}}</span></p>
+    <br>
+    <p class="ingredients-para">Allergen Name<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Allergen_Name}}</span></p>
+    <br>
+    <p class="ingredients-para">Step Number<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Step_Number}}</span></p>
+    <br>
+    <p class="ingredients-para">Step Description<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Step_Description}}</span></p>
+    <br>
+    <p class="ingredients-para">Quantity<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Quantity}}</span></p>
+    <br>
+    <p class="ingredients-para">Ingredient name<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Ingredient_name}}</span></p>
+    <br>
+    <p class="ingredients-para">Measurement Name<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Measurement_Name}}</span></p>
+    <br>
+    <p class="ingredients-para">Food_Category Name<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Food_Category_Name}}</span></p>
+    <br>
+    <p class="ingredients-para">Country<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Country}}</span></p>
+    <br>
+    <p class="ingredients-para">Author Name<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Author_Name}}</span></p>
+    <br>
+    <p class="ingredients-para">Dietary Name<span style="color:yellow; font-size:20px; margin-left:20px;">{{recipe.Dietary_Name}}</span></p>
+    <br>
+    
+</div>
+<br><br>
+ </div>
+</div>
+
+{% endblock %}

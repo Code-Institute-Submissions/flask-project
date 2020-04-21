@@ -1,0 +1,183 @@
+{% extends "base.html" %}
+
+{% block content %}
+ 
+
+<div class="container-fluid intro-image" style="background-image:url('static/images/momcooking.png');background-size:none;background-position: 50% 50%;">
+    <div class="row">
+        <div class="column column-intro" >
+            <h1 >Mama's finest recipes revealed</h1>
+            <div class="div-space-4">
+                <h5>The hidden recipies which mother's around the world <br>have used for generations, are now being published</h5>
+                    <button style="height:60px; width:110px; background-color:blue;" ><a href="{{ url_for('recipes') }}" style="font-size:18px; color:white;">Recipes</a></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="div-space-1"></div>
+
+<h2 class="three-rows-images-h2">Desserts</h2>
+
+
+<div class="container">
+    <div class="row">
+        <div class="column1">
+            <div class="four-rows-images section2-img-1"  src="static/images/applepie.png" alt="Paris" style="background-image:url('static/images/applepie.png') ; background-size:cover;" >
+                <a href="{{ url_for('dessert') }}" class="a-link"><p class="text-in-box-layout">
+                    <div class="space-for-text ">
+                       
+                    </div>
+                     Apple Pie
+                </p></a>
+            </div><! –– ––>
+            <div class="four-rows-images section2-img-2 " src="static/images/cake-1.png" alt="Paris" style="background-image:url('static/images/cake-1.png') ; background-size:cover;" >
+                <a href="{{ url_for('dessert') }}" class="a-link"><p class="text-in-box-layout">
+                    <div class="space-for-text ">
+                      
+                    </div>
+                      Cake
+                </p></a>
+            </div>
+            <div class="four-rows-images section2-img-3" src="static/images/strawberry-dessert.png" alt="Paris" style="background-image:url('static/images/strawberry-dessert.png') ; background-size:cover;" >
+                <a href="{{ url_for('dessert') }}" class="a-link"><p class="text-in-box-layout">
+                    <div class="space-for-text">
+                        
+                    </div>
+                    Ice Cream
+                </p></a>
+            </div>
+            <div class="four-rows-images section2-img-4" src="static/images/blueberry-muffins.png" alt="Paris" style="background-image:url('static/images/blueberry-muffins.png') ; background-size:cover;" >
+                <a href="{{ url_for('dessert') }}" class="a-link"><p class="text-in-box-layout">
+                    <div class="space-for-text">
+                       
+                    </div>
+                     Muffins
+                </p></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="div-space-1">
+
+</div>
+
+<div class="container-fluid middle-section-image" src="static/images/fish.png" style=" background-image: url('static/images/fish.png');"> 
+    <div class="row">
+        <div class="column-middle">
+            <h2>Eat more fish</h2>
+            <p>Research suggests that fish is a great source of protein and that contains many vitamins and minerals<br>
+                It is highly recommended that young adults and the older generation should eat at least 2 portions of fish a week, including at least 1 portion of oily fish.<br>
+                Why? beacuse Oily fish is high in omega-3 fats, which may help prevent heart disease. 
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="div-space-2">
+
+</div>
+
+<h2 class="three-rows-images-h2">Main Course</h2>
+<div class="container" >
+    <div class="row">
+        <div class="column2">
+            <div class="four-rows-images section2-img-1"  alt="Paris" src="static/images/beef.png" style="background-image:url('static/images/beef.png') ; background-size:cover;">
+                <a href="{{ url_for('main_course') }}" class="a-link"><p class="text-in-box-layout">
+                    <div class="space-for-text">
+                        
+                    </div>
+                    Beef
+                </p></a>
+            </div>
+            <div class="four-rows-images section2-img-2 " src="static/images/meat-pork.png" alt="Paris" style="background-image:url('static/images/meat-pork.png') ; background-size:cover;" >
+                <a href="{{ url_for('main_course') }}" class="a-link"><p class="text-in-box-layout">
+                    <div class="space-for-text">
+                        
+                    </div>
+                    Pork
+                </p></a>
+            </div>
+            <div class="four-rows-images section2-img-3" src="static/images/pizza.png" alt="Paris" style="background-image:url('static/images/pizza.png') ; background-size:cover;" >
+               <a href="{{ url_for('main_course') }}" class="a-link"> <p class="text-in-box-layout">
+                    <div class="space-for-text">
+                        
+                    </div>
+                    Pizza
+                </p></a>
+            </div>
+            <div class="four-rows-images section2-img-4" src="static/images/fish.png" alt="Paris" style="background-image:url('static/images/fish.png') ; background-size:cover;" >
+                <a href="{{ url_for('main_course') }}" class="a-link"><p class="text-in-box-layout">
+                    <div class="space-for-text">
+                       
+                    </div>
+                     Fish
+                </p></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid middle-section" >
+    <div class="row">
+        <div class="column">
+
+
+
+        </div>
+    </div>
+</div>
+
+<div class="below-middle-section" >
+    <div class="div-space-3">
+        <h2 class="h2-section-3">Healthy family food</h2>
+        <h5 class="h5-section-3">Eating healthily is a way of life, you eat better and you live longer <br>
+            Our stunning recipes from starters to dinner and the rare treat will provide the fuel to make you feel and look better.    
+        </h5>
+        <p class="p-section-3">The key to a lasting longer is to eat the right amount of calories for how much you burn off with exercise<br> 
+            If you eat more than its recommended and dont get enough exericise, you will gain weight.<br> Track your calorie intake and how much you burn off calories a day and you will be suprise by the results<br>
+            <br>
+            If you dont keep track, then you wont know how well you are doing.<br> If you have also a wide range of foods to make sure you're getting a balanced diet and your body is receiving all the vitamins and nutrients it needs.<br>
+            <br>
+           
+        </p>    
+    </div>
+</div>
+
+<div class="div-space-2"></div>
+    <h2 class="three-rows-images-h2">Starters</h2>
+        <div class="container three-img-div" >
+            <div class="row">
+                <div class="column3">
+                    <div class="three-rows-images section2-img-1" src="static/images/salad.png" alt="Paris" style="background-image:url('static/images/salad.png') ; background-size:cover;" >
+                        <a href="{{ url_for('starter') }}" class="a-link"><p class="text-in-box-layout">
+                            <div class="space-for-text-2">
+                                
+                            </div>
+                            Salad
+                        </p></a>
+                    </div>
+                    <div class="three-rows-images section2-img-2 " src="static/images/garlic-bread.png" alt="Paris" style="background-image:url('static/images/garlic-bread.png') ; background-size:cover;" >
+                        <a href="{{ url_for('starter') }}" class="a-link"><p class="text-in-box-layout">
+                            <div class="space-for-text-2">
+                                
+                            </div>
+                            Galic Bread
+                        </p></a>
+                    </div>
+                    <div class="three-rows-images section2-img-3" src="static/images/chicken-soup.png" alt="Paris" style="background-image:url('static/images/chicken-soup.png') ; background-size:cover;" >
+                        <a href="{{ url_for('starter') }}" class="a-link"><p class="text-in-box-layout">
+                            <div class="space-for-text-2">
+                                
+                            </div>
+                            Soup
+                        </p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

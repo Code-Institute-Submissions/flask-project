@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block header %}
+  <h1 style=" color: white;">{% block title %}Add Recipe{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid" style="background: rgb(59,72,247);
+background: linear-gradient(82deg, rgba(59,72,247,1) 38%, rgba(94,117,218,0.9668242296918768) 61%, rgba(143,149,187,0.9780287114845938) 81%); ">
+  <h1 style="color:black; margin-left:40%; margin-top:50px;">Add Recipe</h1>
+    <div class="formwrapper">
+  
+      <form method="POST" action="{{ url_for('adding_recipes') }}" style="height:400px; margin-top:50px;margin-left:40%;">
+
+        <label for="" style="color:white; font-size:20px;"><b>Recipe Description</b></label>
+        <input type="text" placeholder="Recipe Description"  name="Recipe_Description" required>
+          <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Preparation time</b></label>
+        <input type="text" placeholder="Preparation time"  name="Preparation_time" required>
+        <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Cooking Time</b></label>
+        <input type="text" placeholder="Cooking Time"  name="Cooking_Time" required>
+          <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Recipe Name</b></label>
+        <input type="text" placeholder="Recipe Name"  name="Recipe_Name" required>
+        <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Servings</b></label>
+        <input type="text" placeholder="Servings"  name="Servings" required>
+          <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Course Name</b></label>
+        <input type="text" placeholder="Course Name"  name="Course_Name" required>
+        <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Cuisine Name</b></label>
+        <input type="text" placeholder="Cuisine Name"  name="Cuisine_Name" required>
+          <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Allergen Name</b></label>
+        <input type="text" placeholder="Allergen Name"  name="Allergen_Name" required>
+        <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Step Number</b></label>
+        <input type="text" placeholder="Step Number"  name="Step_Number" required>
+          <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Step Description</b></label>
+        <input type="text" placeholder="Step Description"  name="Step_Description" required>
+        <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Quantity</b></label>
+        <input type="text" placeholder="Quantity"  name="Quantity" required>
+          <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Ingredient name</b></label>
+        <input type="text" placeholder="Ingredient name"  name="Ingredient_name" required>
+        <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Measurement Name</b></label>
+        <input type="text" placeholder="Measurement Name"  name="Measurement_Name" required>
+        <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Food_Category Name</b></label>
+        <input type="text" placeholder="Food Category Name"  name="Food_Category_Name" required>
+          <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Country</b></label>
+        <input type="text" placeholder="Country"  name="Country" required>
+        <br><br>
+
+         <label for="" style="color:white; font-size:20px;"><b>Author Name</b></label>
+        <input type="text" placeholder="Author Name"  name="Author_Name" required>
+        <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Dietary Name</b></label>
+        <input type="text" placeholder="Dietary Name"  name="Dietary_Name" required>
+        <br><br>
+
+         <label for="" style="color:white; font-size:20px;">Select image:</label>
+         <input type="file" id="img" name="img_upload"  required>
+         
+
+         <br><br>
+         <button type="submit" name="action">Submit</button>
+      </form>
+      <br><br>
+      <div style="margin-top:600px;"></div>
+    </div>
+</div>
+{% endblock %}

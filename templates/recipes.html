@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+
+
+<div class="container-fluid middle-section-image" src="static/images/salad.png" style=" background-image: url('static/images/salad.png');">
+<div class="row">
+<div class="column-middle">
+<h2>Dont forget to sign up</h2>
+<p>The mama's online are sharing their favourite recipes to this website</p>
+<br><br>
+<button style="height:60px; width:110px; background-color:blue;" ><a href="{{ url_for('register') }}" style="font-size:18px; color:white;">Sign up</a></button>
+<br><br>
+<button style="height:60px; width:110px; background-color:red;" ><a href="{{ url_for('login') }}" style="font-size:18px; color:white;">Login</a></button>
+
+</div>
+</div>
+</div>
+
+<div class="div-space-1"></div>
+
+<h2 class="three-rows-images-h2">Recipes</h2>
+
+
+<div class="container">
+    <div class="row">
+        <div class="column1">
+            <div class="four-rows-images section2-img-1"   alt="Paris" style=" background-size:cover;" >
+              <a href="{{ url_for('recipe') }}">
+                <img src="static/img_uploads/lemon.jpg" class="recipe-img-size" style="height:280px;width:220px;border-radius: 20px;">
+                    <p> {{recipe.Recipe_Name}} </p>
+               </a> 
+                <p class="text-in-box-layout">
+                    <div class="space-for-text ">
+                       
+                    </div>
+                      
+                </p>
+            </div><! –– ––>
+            
+            
+            
+                      
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="height:100px; margin-top:100px;"><div>
+
+
+
+{% endblock %}

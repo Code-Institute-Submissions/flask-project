@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1 style=" color: white;">{% block title %}Sign Up{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid" style="background: rgb(59,72,247);
+background: linear-gradient(82deg, rgba(59,72,247,1) 38%, rgba(94,117,218,0.9668242296918768) 61%, rgba(143,149,187,0.9780287114845938) 81%); ">
+  <h1 style="color:black; margin-left:40%; margin-top:50px;">REGISTER </h1>
+  <div class="formwrapper">
+  
+  <form method="POST" action="" style="height:400px; margin-top:50px;margin-left:40%;">
+
+      <div class="form-field" style=" color: white;">{{ form.user_name.label }} {{ form.user_name }}</div>
+      {% if form.email.errors %}
+        <ul class="errors">
+          {% for error in form.email.errors %}
+            <li>{{ error }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      <br> 
+      
+      <div class="form-field" style=" color: white;">{{ form.user_email.label }} {{ form.user_email }}</div>
+      {% if form.email.errors %}
+        <ul class="errors">
+          {% for error in form.email.errors %}
+            <li>{{ error }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      <br> 
+      <div class="form-field" style=" color: white;">{{ form.user_password.label }} {{ form.user_password }}</div>
+      {% if form.password.errors %}
+        <ul class="errors">
+          {% for error in form.password.errors %}
+            <li>{{ error }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+       <br> 
+      <div class="form-field" style=" color: white;">{{ form.confirmPassword.label }} {{ form.confirmPassword }}</div>
+      {% if form.confirmPassword.errors %}
+        <ul class="errors">
+          {% for error in form.confirmPassword.errors %}
+            <li>{{ error }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      
+      {{ form.submit }}
+  </form>
+</div>
+</div>
+{% endblock %}
+

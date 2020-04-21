@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block header %}
+  <h1 style=" color: white;">{% block title %}Sign Up{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid" style="background: rgb(59,72,247);
+background: linear-gradient(82deg, rgba(59,72,247,1) 38%, rgba(94,117,218,0.9668242296918768) 61%, rgba(143,149,187,0.9780287114845938) 81%); ">
+  <h1 style="color:black; margin-left:40%; margin-top:50px;">REGISTER </h1>
+    <div class="formwrapper">
+  
+      <form method="POST" action="{{ url_for('recipe') }}" style="height:400px; margin-top:50px;margin-left:40%;">
+
+        <label for="" style="color:white; font-size:20px;"><b>Username</b></label>
+        <input type="text" placeholder="Enter Name" class="form-reg" name="username_profile" required>
+          <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" class="form-reg" name="useremail" required>
+        <br><br>
+
+        <label for="" style="color:white; font-size:20px;"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" class="form-reg" name="userpassword" required>
+      </form>
+    </div>
+</div>
+{% endblock %}
