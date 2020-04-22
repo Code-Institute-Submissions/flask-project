@@ -200,6 +200,6 @@ def login():
 
 if __name__ == '__main__':
     app.secret_key = 'secret_key'
-    app.run(host=os.environ.get('IP'),
+    #app.run(host=os.environ.get('IP'),
             port=os.environ.get('PORT'),
             debug=True)
