@@ -4,10 +4,12 @@ from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 from wtforms.validators import (DataRequired, Email,EqualTo,Length,URL)
 from wtforms import Form, BooleanField, StringField, PasswordField, validators
-
+import os
 from flask import session
 from werkzeug.security import check_password_hash, generate_password_hash
 
+if os.path.isfile('env.py'):
+    import env
 
 app = Flask(__name__,static_url_path='/static')
 
