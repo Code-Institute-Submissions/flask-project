@@ -8,7 +8,9 @@ from wtforms import Form, BooleanField, StringField, PasswordField, validators
 from flask import session
 from werkzeug.security import check_password_hash, generate_password_hash
 
-app = Flask(__name__,static_url_path='/static')
+
+##app = Flask(__name__,static_url_path='/static')
+app = Flask(__name__)
 #mongodb atlas connection below
 app.config["MONGO_URI"] = "mongodb://AnthonyKeogh:45hungryhill@cookbookfask-shard-00-00-t3cez.mongodb.net:27017,cookbookfask-shard-00-01-t3cez.mongodb.net:27017,cookbookfask-shard-00-02-t3cez.mongodb.net:27017/test?ssl=true&replicaSet=CookbookFask-shard-0&authSource=admin&retryWrites=true&w=majority"
 app.config['MONGO_DBNAME'] = 'CookbookFask'
