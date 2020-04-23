@@ -9,8 +9,8 @@ from flask import session
 from werkzeug.security import check_password_hash, generate_password_hash
 
 
-##app = Flask(__name__,static_url_path='/static')
-app = Flask(__name__)
+app = Flask(__name__,static_url_path='/static')
+
 #mongodb atlas connection below
 app.config["MONGO_URI"] = "mongodb://AnthonyKeogh:45hungryhill@cookbookfask-shard-00-00-t3cez.mongodb.net:27017,cookbookfask-shard-00-01-t3cez.mongodb.net:27017,cookbookfask-shard-00-02-t3cez.mongodb.net:27017/test?ssl=true&replicaSet=CookbookFask-shard-0&authSource=admin&retryWrites=true&w=majority"
 app.config['MONGO_DBNAME'] = 'CookbookFask'
@@ -201,7 +201,7 @@ def login():
 
 
 if __name__ == '__main__':
-    app.secret_key = 'secret_key'
+    app.secret_key = 'flaskkey'
     app.run(host=os.environ.get('IP'),
             port=os.environ.get('PORT'),
             debug=True)
