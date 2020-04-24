@@ -203,7 +203,7 @@ def login():
 
 
 if __name__ == '__main__':
-    app.secret_key = 'SECRET_KEY'
+    
     app.run(host=os.environ.get('IP'),
             port=os.environ.get('PORT'),
             debug=True)
