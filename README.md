@@ -200,6 +200,7 @@ Navigate through the four other pages with ease
 Deploying it locally on VS code was very straightforward.
 
 1.( cd C:\Users\User\Desktop\flask_app_cookbook\mainapp-copy)
+
 2. flask run
 
 • Heroku
