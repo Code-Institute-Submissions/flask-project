@@ -64,9 +64,36 @@ To give the user a good reason to follow the up and coming albums, tours and mer
 •	MongoDB
 
 
+#  -------- Schema model for database ---------------
+
+https://github.com/anthony-keogh/flask-project/blob/master/static/images/UML_map.png
+
+# ---------Wireframe-------------
+
+https://github.com/anthony-keogh/flask-project/blob/master/static/images/flask-wireframe.png
+
+
 # -----------Testing-----------------
 
 •	The majority of the testing took part in Chrome and Microsoft Explorer developer tools to test the responsiveness of the website from one device be it small smart phone up to a desktop layout of the website, then i had to marry this with different browsers.
+
+
+---------Chrome testing---------
+https://github.com/anthony-keogh/flask-project/tree/master/static/images/chrome
+
+
+
+-------Microsoft explorer--------
+https://github.com/anthony-keogh/flask-project/tree/master/static/images/microsoft
+
+
+-------Authentication testing-----------
+https://github.com/anthony-keogh/flask-project/tree/master/static/images/auth-testing
+
+
+-------Recipe Testing------------
+https://github.com/anthony-keogh/flask-project/tree/master/static/images/auth-testing
+
 
 •	There were many challenges in fitting what content and design i want to put into each device and which to take out for the good of the website. There was also slight variation between what you can do in each browser, but the majority between google and Microsoft explorer were similar.
 
@@ -167,7 +194,33 @@ Navigate through the four other pages with ease
  
  
  
-#  ------Project Deployment----------
+# ----------Project Deployment------------
+• VS Code
+
+Deploying it locally on VS code was very straightforward.
+
+1.( cd C:\Users\User\Desktop\flask_app_cookbook\mainapp-copy)
+2. flask run
+
+• Heroku
+
+When testing whether the app runs i would find it a lot easier to spot error when deploying it manually from github, as automatic deployement does not show much when you view it in the logs. It was harder than i taught to deploy the app successfully on heroku and getting good practice and experience from do it in this project, i can identify beforehand the common errors and laser focus i need to deploy another one in the future
+
+• System Variables
+
+Without proper planning in terms of system variables the app can be much harder to run and spot any errors which i encounter with leaving out a few pieces of code. Its the back bone of getting the app to deploy properly and something that i will pay more attention to it to avoid mistakes in the future.
+
+• gitignore
+
+Using gitignore was very straightforward and is used to hide key pieces of secret information by combining it with app.py and env.py and then therefore telling gitignore to hide env.py in github.
+
+• Procfile
+
+I had issues with the procfile, i created using powershell terminal and because that there was a space in the file, which did not read the code when running on Heroku. So after testing in different terminals it worked on bash, which fix the problem.
+
+• Config Vars
+
+Working with config vars in heroku was very simple to use containg the postgresql key and value which was then inserting in my env.py file.
 
 
 # -----------Credits and Acknowledgements------------
