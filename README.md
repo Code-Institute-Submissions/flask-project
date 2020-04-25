@@ -156,6 +156,15 @@ I have provide a very simple wireframe to understand for this website that highl
 •	The aesthetic quality of the website will enhance the user ui and ux of the website. Therefore increasing the likelihood of a interaction via email or sales on the website. 
 
 
+# ------COLOR SCHEME------
+
+I changed the background color scheme on most pages to this blue color below
+
+from dark blue to light blue
+
+background: rgb(111,121,254);
+background: linear-gradient(0deg, rgba(111,121,254,1) 38%, rgba(81,113,254,1) 61%, rgba(2,25,176,1) 81%);
+
 # ----------File Management-------------
 
 •  Cookbook_flask
