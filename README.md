@@ -41,31 +41,31 @@ To give the user a good reason to follow the up and coming albums, tours and mer
 
 # Technologies Used
 
- •	Html5
+      •	Html5
 
- •	CSS 
+      •	CSS 
 
- •	Javascript
+      •	Javascript
 
- •	Bootstrap
+      •	Bootstrap
 
- •	Flexbox
+      •	Flexbox
 
- •	Chrome and Firefox developer tools
+      •	Chrome and Firefox developer tools
 
- •	Visual studio code (Microsoft)
+      •	Visual studio code (Microsoft)
 
- •	jQuery
+      •	jQuery
 
- •	Photoshop
+      •	Photoshop
 
- •	Cssgradient.io
+      •	Cssgradient.io
 
- •	Flask
+      •	Flask
 
- •	Python
+      •	Python
 
- •	MongoDB
+      •	MongoDB
 
 
 #   Schema model for database 
@@ -104,19 +104,19 @@ https://github.com/anthony-keogh/flask-project/tree/master/static/images/auth-te
 
 # Content
 
-Home
+     Home
 
-starter
+     Starter
 
-Main-course
+     Main-course
 
-Dessert
+     Dessert
 
-Recipe
+     Recipe
 
-Register
+     Register
 
-Login
+     Login
 
 
 # User Experience
@@ -165,39 +165,40 @@ I have provide a very simple wireframe to understand for this website that highl
 
 # File Management
 
-•  Cookbook_flask
+       •  Cookbook_flask
 
-•  Instance (folder)
-
-
-•  Main app (folder)
-1.	Admin
-2.	Auth
-3.	Home
-4.	Static
-5.	templates
+       •  Instance (folder)
 
 
-•  Migrations(folder)
+       •  Main app (folder)
+       
+          1.	Admin
+          2.	Auth
+          3.	Home
+          4.	Static
+          5.	templates
 
-•  Virtualenvironment(folder)
 
-•  Readme file
+       •  Migrations(folder)
 
-•  Wireframe
+       •  Virtualenvironment(folder)
+
+       •  Readme file
+
+       •  Wireframe
 
 
 
 # Project Approach
 
-•	Nav
-Navigate through the four other pages with ease
+       •	Nav
+             Navigate through the four other pages with ease
 
-•	Main body
+       •	Main body
 
-•	Footer
+       •	Footer
 
-•     contact
+       • contact
  
  
  
@@ -208,17 +209,17 @@ Navigate through the four other pages with ease
 
 Deploying it locally on VS code was very straightforward.
 
-1.     cd C:\Users\User\Desktop\flask_app_cookbook\mainapp-copy
+     1.     cd C:\Users\User\Desktop\flask_app_cookbook\mainapp-copy
 
-2.     flask run
+     2.     flask run
 
 • Heroku
 
 When testing whether the app runs i would find it a lot easier to spot error when deploying it manually from github, as automatic deployement does not show much when you view it in the logs. It was harder than i taught to deploy the app successfully on heroku and getting good practice and experience from do it in this project, i can identify beforehand the common errors and laser focus i need to deploy another one in the future
 
-Port: 5000
+     Port: 5000
 
-IP: 0.0.0.0
+     IP: 0.0.0.0
 
 
 • System Variables
@@ -239,25 +240,26 @@ Working with config vars in heroku was very simple to use containg the postgresq
 
 
 # Credits and Acknowledgements
-•	W3schools
 
-•	Quora 
+     •	W3schools
 
-•	cssgradient.io
+     •	Quora 
 
-•	Stack overflow 
+     •	cssgradient.io
 
-•	CSS Tutorial - Tutorialspoint
+     •	Stack overflow 
 
-•	www.csstutorial.net
+     •	CSS Tutorial - Tutorialspoint
 
-•	developer.mozilla.org
+     •	www.csstutorial.net
 
-•	 https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database
+     •	developer.mozilla.org
 
-•	https://flask-pymongo.readthedocs.io/en/latest/
+     •	 https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database
 
-•	https://flask.palletsprojects.com/en/1.0.x/quickstart/
+     •	https://flask-pymongo.readthedocs.io/en/latest/
+
+     •	https://flask.palletsprojects.com/en/1.0.x/quickstart/
 
 
 
