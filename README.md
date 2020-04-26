@@ -146,6 +146,7 @@ The authentication was tested, improved and then past the test to deploy the sig
 
 
 # User Experience
+
 •	Achieving the main goal and functions
 
 As mention above the main functions of the website were 
@@ -154,20 +155,25 @@ As mention above the main functions of the website were
 3.	Persuasion
       So the user experience was based on these factors and every decision was built around whether it improved these three functions or not.
 
-•	User-friendly
+•	User-friendly:
+
 This was the most important factor when analysing user experience for both the user and the browser to recognise it as a well run website. The navigation, aesthetics and the familiarity was on point and I made it very simple to use. 
 
-•	Behavioural psychology
+•	Behavioural psychology:
+
 I Incorporated different design, images, fonts and words to get the user to feel a certain way to increase the chance of them taking actions and coming back to the website for a second visit.
 
-•	Optimised website goals
+•	Optimised website goals:
+
 I put in place solid ux methods and steps that will give the website a platform on how to improve going forward and a measuring tool to analyse what didn’t go well and what was a success.
 
-•	Making the website interesting
+•	Making the website interesting:
+
 The website has character and a show topping design to make the user browse more around the website and stay on that website a little longer to increase the odds of a great user experience and ultimately enhance the satisfaction of the consumer
 
 
-•	Wireframe diagram
+•	Wireframe diagram:
+
 I have provide a very straightforward wireframe to understand for this application that highlights the importance of promoting the different recipes, cuisines and courses.
 
 
