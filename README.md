@@ -3,7 +3,7 @@
 
 # flask MongoDB Project
 
-3rd Milestone Project module in Data Centric Development for Code Instititute. Its part of the Full Stack Software Development Diploma online course.
+3rd Milestone Project module in Data Centric Development for Code Institute. Its part of the Full Stack Software Development Diploma online course.
 
 # Live App
 
