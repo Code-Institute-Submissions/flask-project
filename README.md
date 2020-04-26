@@ -1,13 +1,15 @@
 ﻿
-# flask-cookbook
+# Data Centric Development with Python: flask-cookbook
 
-# flask
+# flask MongoDB Project
 
 # ------live Website-----------
 
 https://flask-app-mama-cookbook.herokuapp.com/
 
 # ---------Objective--------
+
+
 
 To create a great responsive cooking recipe website that allows users to store and easily access cooking recipes.
 Project’s Core Functionality
