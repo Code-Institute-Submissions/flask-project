@@ -164,6 +164,13 @@ I have provide a very simple wireframe to understand for this website that highl
 
 # COLOR SCHEME
 
+The main color in the cookbook app were:
+
+        Purple/pink
+        
+        Dark 
+        
+        White (the white space around the pictures creates style and class to the app)
 
 # File Management
 
