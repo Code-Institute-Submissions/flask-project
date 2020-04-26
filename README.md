@@ -30,25 +30,30 @@ https://flask-app-mama-cookbook.herokuapp.com/
 To create a great responsive cooking recipe application that allows users to store and easily access cooking recipes.
 Project’s Core Functionality
 
-•	Data driven approach
+•	Data driven approach:
+
 Everything in the backend of the software must be done with precision, clarity and and laser focus.
 
 
-•	Great UX & UI
+•	Great UX & UI:
 
 The goal is to make the experience and navigation look effortless through each page and create a pleasant feel for the user on a smart phone and desktop. 
 
-•	Persuasion
+•	Marketing methods:
+
 Use marketing techniques on the app to influence their decision to return again.
 
-•	Data centric Design
+•	Data centric Design:
+
 This is a application that must be built around data and have a solid database to have any chance of it being a success.
 
-•	A stunning visual website
+•	A stunning visual website:
+
 There is no point in having a fantastic database design and functionality if the front-end of the app does not look good. It has to look amazing and design friendly for the user to enjoy going onto the app
 
 
-•	Attention to detail
+•	Attention to detail:
+
 High attention to detail has to go into designing and building the database and for it to look stylish for mothers who are going to be using it to add recipes
 
 
