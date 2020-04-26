@@ -41,27 +41,27 @@ To give the user a good reason to follow the up and coming albums, tours and mer
 
 •	Html5
 
-•	css 
+•	CSS 
 
-•	javascript
+•	Javascript
 
-•	bootstrap
+•	Bootstrap
 
-•	flexbox
+•	Flexbox
 
 •	Chrome and Firefox developer tools
 
-•	visual studio code
+•	Visual studio code (Microsoft)
 
-•	jquery
+•	jQuery
 
-•	photoshop
+•	Photoshop
 
-•	cssgradient.io
+•	Cssgradient.io
 
-•	flask
+•	Flask
 
-•	python
+•	Python
 
 •	MongoDB
 
