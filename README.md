@@ -30,9 +30,8 @@ https://flask-app-mama-cookbook.herokuapp.com/
 To create a great responsive cooking recipe application that allows users to store and easily access cooking recipes.
 Project’s Core Functionality
 
-•	Solid Structure and architecture
-
-I really wanted to push the design and images to make the website visually stunning by using unique and different designs for each block of the website (Tour, Merchandise, About the band and Albums)
+•	Data driven approach
+Everything in the backend of the software must be done with precision, clarity and and laser focus.
 
 
 •	Great UX & UI
