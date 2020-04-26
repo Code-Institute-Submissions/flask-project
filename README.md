@@ -3,12 +3,12 @@
 
 # flask MongoDB Project
 
-# ------live Website-----------
+# Live Website
 
 https://flask-app-mama-cookbook.herokuapp.com/
 
-# ---------Objective--------
 
+# Objective
 
 
 To create a great responsive cooking recipe website that allows users to store and easily access cooking recipes.
@@ -37,7 +37,7 @@ To give the user a good reason to follow the up and coming albums, tours and mer
 
 
 
-# -----------Technologies Used-------------
+# Technologies Used
 
 •	Html5
 
@@ -66,16 +66,16 @@ To give the user a good reason to follow the up and coming albums, tours and mer
 •	MongoDB
 
 
-#  -------- Schema model for database ---------------
+#   Schema model for database 
 
 https://github.com/anthony-keogh/flask-project/blob/master/static/images/UML_map.png
 
-# ---------Wireframe-------------
+# Wireframe
 
 https://github.com/anthony-keogh/flask-project/blob/master/static/images/flask-wireframe.png
 
 
-# -----------Testing-----------------
+# Testing
 
 •	The majority of the testing took part in Chrome and Microsoft Explorer developer tools to test the responsiveness of the website from one device be it small smart phone up to a desktop layout of the website, then i had to marry this with different browsers.
 
@@ -100,7 +100,7 @@ https://github.com/anthony-keogh/flask-project/tree/master/static/images/auth-te
 •	There were many challenges in fitting what content and design i want to put into each device and which to take out for the good of the website. There was also slight variation between what you can do in each browser, but the majority between google and Microsoft explorer were similar.
 
 
-# ---------Content---------------
+# Content
 
 Home
 
@@ -117,7 +117,7 @@ Register
 Login
 
 
-# ---------User Experience----------
+# User Experience
 •	achieving the main goal and functions
 
 As mention above the main functions of the website were 
@@ -145,7 +145,7 @@ what the end result boils down to was whether the user will take action and by h
 I have provide a very simple wireframe to understand for this website that highlights the importance that each section of the website had, be it albums, tours, merchandise and about the band.
 
 
-# ----------User Interface----------
+# User Interface
 
 •	My goal as the user interface developer was to make the user's interaction as simple and efficient as possible which i think i have achive through user-centered design
 
@@ -158,7 +158,7 @@ I have provide a very simple wireframe to understand for this website that highl
 •	The aesthetic quality of the website will enhance the user ui and ux of the website. Therefore increasing the likelihood of a interaction via email or sales on the website. 
 
 
-# ------COLOR SCHEME------
+# COLOR SCHEME
 
 I changed the background color scheme on most pages to this blue color below
 
@@ -167,7 +167,7 @@ from dark blue to light blue
 background: rgb(111,121,254);
 background: linear-gradient(0deg, rgba(111,121,254,1) 38%, rgba(81,113,254,1) 61%, rgba(2,25,176,1) 81%);
 
-# ----------File Management-------------
+# File Management
 
 •  Cookbook_flask
 
@@ -192,7 +192,7 @@ background: linear-gradient(0deg, rgba(111,121,254,1) 38%, rgba(81,113,254,1) 61
 
 
 
-#  --------Project Approach----------
+# Project Approach
 
 •	Nav
 Navigate through the four other pages with ease
@@ -205,7 +205,9 @@ Navigate through the four other pages with ease
  
  
  
-# ----------Project Deployment------------
+# Project Deployment
+
+
 • VS Code
 
 Deploying it locally on VS code was very straightforward.
@@ -235,7 +237,7 @@ I had issues with the procfile, i created using powershell terminal and because 
 Working with config vars in heroku was very simple to use containg the postgresql key and value which was then inserting in my env.py file.
 
 
-# -----------Credits and Acknowledgements------------
+# Credits and Acknowledgements
 •	W3schools
 
 •	Quora 
