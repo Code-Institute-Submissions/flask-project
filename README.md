@@ -84,21 +84,21 @@ https://github.com/anthony-keogh/flask-project/blob/master/static/images/flask-w
 
       ----Chrome testing---------
       
-      https://github.com/anthony-keogh/flask-project/tree/master/static/images/chrome
+  https://github.com/anthony-keogh/flask-project/tree/master/static/images/chrome
 
 
 
       ----Microsoft explorer--------
       
-      https://github.com/anthony-keogh/flask-project/tree/master/static/images/microsoft
+  https://github.com/anthony-keogh/flask-project/tree/master/static/images/microsoft
 
 
       ---Authentication testing-----------
-      https://github.com/anthony-keogh/flask-project/tree/master/static/images/auth-testing
+  https://github.com/anthony-keogh/flask-project/tree/master/static/images/auth-testing
 
 
       --Recipe Testing------------
-      https://github.com/anthony-keogh/flask-project/tree/master/static/images/auth-testing
+  https://github.com/anthony-keogh/flask-project/tree/master/static/images/auth-testing
 
 
 •	There were many challenges in fitting what content and design i want to put into each device and which to take out for the good of the website. There was also slight variation between what you can do in each browser, but the majority between google and Microsoft explorer were similar.
