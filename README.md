@@ -3,7 +3,9 @@
 
 # flask MongoDB Project
 
-# Live Website
+3rd Milestone Project module in Data Centric Development for Code Instititute. Its part of the Full Stack Software Development Diploma online course.
+
+# Live App
 
 https://flask-app-mama-cookbook.herokuapp.com/
 
@@ -212,13 +214,18 @@ Navigate through the four other pages with ease
 
 Deploying it locally on VS code was very straightforward.
 
-1.( cd C:\Users\User\Desktop\flask_app_cookbook\mainapp-copy)
+1.     cd C:\Users\User\Desktop\flask_app_cookbook\mainapp-copy
 
-2. flask run
+2.     flask run
 
 • Heroku
 
 When testing whether the app runs i would find it a lot easier to spot error when deploying it manually from github, as automatic deployement does not show much when you view it in the logs. It was harder than i taught to deploy the app successfully on heroku and getting good practice and experience from do it in this project, i can identify beforehand the common errors and laser focus i need to deploy another one in the future
+
+Port: 5000
+
+IP: 0.0.0.0
+
 
 • System Variables
 
