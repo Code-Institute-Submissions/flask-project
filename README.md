@@ -83,7 +83,7 @@ High attention to detail has to go into designing and building the database and 
 
       •	Python
 
-      •	MongoDB
+      •	MongoDB + MongoDB Atlas
 
 
 #   Schema model for database 
