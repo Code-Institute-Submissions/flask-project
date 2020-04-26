@@ -14,7 +14,7 @@ https://flask-app-mama-cookbook.herokuapp.com/
 To create a great responsive cooking recipe website that allows users to store and easily access cooking recipes.
 Project’s Core Functionality
 
-•	# Solid Structure and architecture
+•	Solid Structure and architecture
 
 I really wanted to push the design and images to make the website visually stunning by using unique and different designs for each block of the website (Tour, Merchandise, About the band and Albums)
 
@@ -39,31 +39,31 @@ To give the user a good reason to follow the up and coming albums, tours and mer
 
 # Technologies Used
 
-# •	Html5
+ •	Html5
 
-# •	CSS 
+ •	CSS 
 
-# •	Javascript
+ •	Javascript
 
-# •	Bootstrap
+ •	Bootstrap
 
-# •	Flexbox
+ •	Flexbox
 
-# •	Chrome and Firefox developer tools
+ •	Chrome and Firefox developer tools
 
-# •	Visual studio code (Microsoft)
+ •	Visual studio code (Microsoft)
 
-# •	jQuery
+ •	jQuery
 
-# •	Photoshop
+ •	Photoshop
 
-# •	Cssgradient.io
+ •	Cssgradient.io
 
-# •	Flask
+ •	Flask
 
-# •	Python
+ •	Python
 
-# •	MongoDB
+ •	MongoDB
 
 
 #   Schema model for database 
