@@ -82,21 +82,23 @@ https://github.com/anthony-keogh/flask-project/blob/master/static/images/flask-w
 •	The majority of the testing took part in Chrome and Microsoft Explorer developer tools to test the responsiveness of the website from one device be it small smart phone up to a desktop layout of the website, then i had to marry this with different browsers.
 
 
----------Chrome testing---------
-https://github.com/anthony-keogh/flask-project/tree/master/static/images/chrome
+      ----Chrome testing---------
+      
+      https://github.com/anthony-keogh/flask-project/tree/master/static/images/chrome
 
 
 
--------Microsoft explorer--------
-https://github.com/anthony-keogh/flask-project/tree/master/static/images/microsoft
+      ----Microsoft explorer--------
+      
+      https://github.com/anthony-keogh/flask-project/tree/master/static/images/microsoft
 
 
--------Authentication testing-----------
-https://github.com/anthony-keogh/flask-project/tree/master/static/images/auth-testing
+      ---Authentication testing-----------
+      https://github.com/anthony-keogh/flask-project/tree/master/static/images/auth-testing
 
 
--------Recipe Testing------------
-https://github.com/anthony-keogh/flask-project/tree/master/static/images/auth-testing
+      --Recipe Testing------------
+      https://github.com/anthony-keogh/flask-project/tree/master/static/images/auth-testing
 
 
 •	There were many challenges in fitting what content and design i want to put into each device and which to take out for the good of the website. There was also slight variation between what you can do in each browser, but the majority between google and Microsoft explorer were similar.
